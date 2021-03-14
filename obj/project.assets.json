@@ -8,24 +8,26 @@
     "net5.0": []
   },
   "packageFolders": {
-    "/home/prophet/.nuget/packages/": {}
+    "C:\\Users\\Oliver\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/prophet/dev/webApp/myWebApp.csproj",
+      "projectUniqueName": "D:\\Devel\\workspace\\webApp\\myWebApp.csproj",
       "projectName": "myWebApp",
-      "projectPath": "/home/prophet/dev/webApp/myWebApp.csproj",
-      "packagesPath": "/home/prophet/.nuget/packages/",
-      "outputPath": "/home/prophet/dev/webApp/obj/",
+      "projectPath": "D:\\Devel\\workspace\\webApp\\myWebApp.csproj",
+      "packagesPath": "C:\\Users\\Oliver\\.nuget\\packages\\",
+      "outputPath": "D:\\Devel\\workspace\\webApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/prophet/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Oliver\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -61,7 +63,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.201/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
       }
     }
   }

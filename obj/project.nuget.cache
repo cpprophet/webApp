@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cUP4I+xNKxl6CVZK6blEyMnxHdng//zZvIhxPFloxjEv3Ew/oPb5X7pnLMaJ509C3MS6MnZ63gzSXiSaHbRqgQ==",
+  "dgSpecHash": "jGb+gqEOYvy2C0MBVKpN1HHsyAN746x/03ZRIb5jmEzz+zGEgptTtm7APnh9/BMqyBG4/LdukOyjH31aj6u/Dg==",
   "success": true,
-  "projectFilePath": "/home/prophet/dev/webApp/myWebApp.csproj",
+  "projectFilePath": "D:\\Devel\\workspace\\webApp\\myWebApp.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
