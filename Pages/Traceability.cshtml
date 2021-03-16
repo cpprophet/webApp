@@ -12,27 +12,95 @@
         This article describes the creation of a traceability matrix using JIRA and Confluence together.
         An usefull approach might be to create the traceability matrix while refining the (customer-)requirements - best case in a planning meeting - or equivalent.
     </p>
-    <h3>Usage</h3>
+    </div>
+<div class="text-left">
+    <h3>Goal</h3>
     <p>
-        Creating a traceability matrix has to sites in usage:
+        Creating a traceability matrix has two sites in its usage:
         <ul>
             <li>N° 1: Keep track of Customer Requirements and Ongoing Development - wether it will be Development, Testing or any other related Task.</li>
             <li>N° 2: Fullfill ISO Norms of Processes</li>
-         </ul>
+        </ul>
     </p>
     <h3>Workflow</h3>
     <p>
-        Create Confluence's Basic Requirement(?) template.<br />
-        Fill the needed Meta-information's:<br />
+        Before any Development in a Software Project starts, a Definition of Done (DOD) must be defined with the whole Development Team.
+        This DOD defines when a Task is DONE.
+        Due to sizes of different Projects testing approaches might differ.
+        Some Testszenarios might be:
         <ul>
-            <li>participants</li>
-            <li>persons in CC</li>
-            <li>main topic</li>
-            <li>goal</li>
+            <li>Unit Tests</li>
+            <li>public API Tests</li>
+            <li>Manual Testing (not recommended)</li>
         </ul>
-        Fill one of the (many?) High Level Requirement into an element of the left column<br />
-        Create (an) "User Story(s)" in Jira which shall fulfill this one 'High Level Requirement'<br />
-
-        A User Story itself shall consist of other subtasks in Jira such aus "Development Task" "Test Task" "Documentation Task"<br />
+        The DOD shall fullfill following goals:
+        <ul>
+            <li>The Software System including the new Component shall run.</li>
+            <li>The new Component shall be tested.</li>
+            <li>The new Component shall be useabel in the Product.</li>
+        </ul>
     </p>
+    <p>
+        Due to agile approaches (even in a V-Modell approach) a planning and review must be iteratively being held.
+    </p>
+    <p>
+        Both artefacts are ment to touch the product requirements in detail.
+    </p>
+    <h4>
+        Requirement breakdown - planning (and review)
+    </h4>
+    <p>
+        The planning phase is ment to discuss the related requirements. <br />
+        A Product requirement Template in confluence shall be created. <br />
+
+        The development team shall
+        <ul>
+            <li>
+                Fill the needed Meta-information's:<br />
+                <br />
+                e.g
+                <ul>
+                    <li>participants; Developer, Leads, QA</li>
+                    <li>Document Owner</li>
+                    <li>persons in CC</li>
+                    <li>Document Status</li>
+                </ul>
+            </li>
+            <li>write down all (known) customer-requirements seperately (left column in the Matrix)</li>
+            <li>note down known Goals and related Metrics (to test if the goal is met).</li>
+            <li>write Userstorys to fullfill these Customer Requirements.</li>
+            <li>write (sub-)tasks for smaller components to be able to develop the user story in general</li>
+            <li>shall note down open questions for the customer</li>
+        </ul>
+        <br />
+        The Review Phase ís ment to
+        <ul>
+            <li>check/present/discuss the tasks done - best case with the customer or relativ</li>
+            <li>note down open questions for the customer</li>
+            <li>discuss open questions with the customer</li>
+        </ul>
+    </p>
+    <p>
+    <h5>Support</h5>
+    Usefull seperation of tasks and subtasks might be:
+    Tasks might consist of
+    <ul>
+        <li>detailed development task</li>
+        <li>detailed administration tasks</li>
+        <li>detailed configuration tasks</li>
+        <li>or similar</li>
+    </ul>
+    Subtasks might consist of
+    <ul>
+        <li>Development</li>
+        <li>Test</li>
+        <li>Documentation</li>
+        <li>Validation</li>
+        <li>e.g.</li>
+    </ul>
+    in Jira. <br />
+    This shall just support the Development Team to think in every detail.
+    The Main goal of the approach is: delivering a running software-system, meeting the processed Customer Requirements each iteration.
+    </p>
+
 </div>
